@@ -1,0 +1,106 @@
+/* .container {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  width: 100%;
+}
+
+.btnDiv {
+  width: full;
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+} */
+
+.button1 {
+  height: 90px;
+  width: 290px;
+  font-style: 28px;
+  color: white;
+  border: none;
+  background-color: blue;
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-delay: 0.2s;
+}
+
+.button2 {
+  height: 90px;
+  margin: 10px;
+  width: 290px;
+  font-style: 28px;
+  color: white;
+  border: none;
+  background-color: blue;
+  transition: background-color 3s ease-in-out, color 2s ease 2s,
+    border-radius 4s ease-out 3s;
+}
+
+.button2:hover {
+  background-color: green;
+  color: black;
+  border-radius: 50%;
+}
+
+.button1:hover {
+  background-color: green;
+  color: black;
+  width: 600px;
+}
+
+.move {
+  margin: 2rem;
+  width: 150px;
+  height: 50px;
+  padding: 10px 15px;
+  background-color: red;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 0.5rem;
+  font-style: 20px;
+  transition-property: translate();
+  transition-duration: 3s;
+}
+
+.move:hover {
+  transform: translate(900px, 0);
+}
+
+#ease {
+  transition-timing-function: ease;
+}
+
+#linear {
+  transition-timing-function: linear;
+}
+
+#ease-in {
+  transition-timing-function: ease-in;
+}
+
+#ease-out {
+  transition-timing-function: ease-out;
+}
+
+#ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+
+/* 2D transform */
+
+.container2 {
+  margin-bottom: 5vh;
+}
+
+img {
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+  transition: transform 2s;
+}
+
+img:hover {
+    transform: translate(500px,-200px);
+}
