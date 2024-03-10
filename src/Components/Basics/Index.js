@@ -27,11 +27,68 @@ const Index = () => {
       </div>
 
       {/* 2D transform */}
+      <p className="dTitle">2D transform</p>
       <div className="container2">
-        <img
-          src="https://lh3.googleusercontent.com/proxy/cnt7a22d1ktcUeE82JrEEVv4h10nlpnCqC2nF63ycuuxiC1XufAV_XeH1kJo6gRQsxv2mVmfe93ctqrXO6IY1-bLWVNW9lgTJsjDWj4fKqb1Qa8P9p6xGcINuylKuTZL-dwU0uvAseV1Te7CSatyvWiODNwgVAA=s680-w680-h510"
-          alt="link-url"
-        />
+        <div className="transformXY">
+          <img
+            src="https://lh3.googleusercontent.com/proxy/cnt7a22d1ktcUeE82JrEEVv4h10nlpnCqC2nF63ycuuxiC1XufAV_XeH1kJo6gRQsxv2mVmfe93ctqrXO6IY1-bLWVNW9lgTJsjDWj4fKqb1Qa8P9p6xGcINuylKuTZL-dwU0uvAseV1Te7CSatyvWiODNwgVAA=s680-w680-h510"
+            alt="link-url"
+          />
+          <p>2D transform</p>
+        </div>
+
+        <div className="scale">
+          <img
+            src="https://lh3.googleusercontent.com/proxy/cnt7a22d1ktcUeE82JrEEVv4h10nlpnCqC2nF63ycuuxiC1XufAV_XeH1kJo6gRQsxv2mVmfe93ctqrXO6IY1-bLWVNW9lgTJsjDWj4fKqb1Qa8P9p6xGcINuylKuTZL-dwU0uvAseV1Te7CSatyvWiODNwgVAA=s680-w680-h510"
+            alt="link-url"
+          />
+          <p>Scale</p>
+        </div>
+
+        <div className="rotate">
+          <img
+            src="https://lh3.googleusercontent.com/proxy/cnt7a22d1ktcUeE82JrEEVv4h10nlpnCqC2nF63ycuuxiC1XufAV_XeH1kJo6gRQsxv2mVmfe93ctqrXO6IY1-bLWVNW9lgTJsjDWj4fKqb1Qa8P9p6xGcINuylKuTZL-dwU0uvAseV1Te7CSatyvWiODNwgVAA=s680-w680-h510"
+            alt="link-url"
+          />
+          <p>Rotate 360</p>
+        </div>
+
+        <div className="skew">
+          <img
+            src="https://lh3.googleusercontent.com/proxy/cnt7a22d1ktcUeE82JrEEVv4h10nlpnCqC2nF63ycuuxiC1XufAV_XeH1kJo6gRQsxv2mVmfe93ctqrXO6IY1-bLWVNW9lgTJsjDWj4fKqb1Qa8P9p6xGcINuylKuTZL-dwU0uvAseV1Te7CSatyvWiODNwgVAA=s680-w680-h510"
+            alt="link-url"
+          />
+          <p>Skew</p>
+        </div>
+
+        <div className="transformOrigin">
+          <img
+            src="https://lh3.googleusercontent.com/proxy/cnt7a22d1ktcUeE82JrEEVv4h10nlpnCqC2nF63ycuuxiC1XufAV_XeH1kJo6gRQsxv2mVmfe93ctqrXO6IY1-bLWVNW9lgTJsjDWj4fKqb1Qa8P9p6xGcINuylKuTZL-dwU0uvAseV1Te7CSatyvWiODNwgVAA=s680-w680-h510"
+            alt="link-url"
+          />
+          <p>Transform Origin</p>
+        </div>
+      </div>
+
+      <div className="dddTrans">
+        <p className="dTitle">3D transform</p>
+        <div className="threeD">
+          <div className="translateZ">
+            <img
+              src="https://lh3.googleusercontent.com/proxy/cnt7a22d1ktcUeE82JrEEVv4h10nlpnCqC2nF63ycuuxiC1XufAV_XeH1kJo6gRQsxv2mVmfe93ctqrXO6IY1-bLWVNW9lgTJsjDWj4fKqb1Qa8P9p6xGcINuylKuTZL-dwU0uvAseV1Te7CSatyvWiODNwgVAA=s680-w680-h510"
+              alt="link-url"
+            />
+            <p>3D Translate</p>
+          </div>
+
+          <div className="rotateD">
+            <img
+              src="https://lh3.googleusercontent.com/proxy/cnt7a22d1ktcUeE82JrEEVv4h10nlpnCqC2nF63ycuuxiC1XufAV_XeH1kJo6gRQsxv2mVmfe93ctqrXO6IY1-bLWVNW9lgTJsjDWj4fKqb1Qa8P9p6xGcINuylKuTZL-dwU0uvAseV1Te7CSatyvWiODNwgVAA=s680-w680-h510"
+              alt="link-url"
+            />
+            <p>3D Rotate</p>
+          </div>
+        </div>
       </div>
     </div>
   );

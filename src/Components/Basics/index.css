@@ -90,17 +90,79 @@
 /* 2D transform */
 
 .container2 {
-  margin-bottom: 5vh;
+  display: flex;
 }
 
-img {
+.transformXY,
+.scale,
+.rotate,
+.skew,
+.transformOrigin,
+.translateZ,
+.rotateD {
+  width: 350px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: transform 2s;
+}
+
+.threeD {
+  perspective: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.transformXY > img,
+.scale > img,
+.rotate > img,
+.skew > img,
+.transformOrigin > img,
+.translateZ > img,
+.rotateD > img {
   width: 300px;
   display: block;
   margin: auto;
   margin-top: 200px;
-  transition: transform 2s;
 }
 
-img:hover {
-    transform: translate(500px,-200px);
+.rotate > img {
+  border-radius: 50%;
+}
+
+.transformXY:hover {
+  transform: translate(500px, -200px);
+}
+
+.scale:hover {
+  transform: scale(1.5);
+}
+
+.rotate:hover {
+  transform: rotate(360deg);
+}
+
+.skew:hover {
+  transform: skew(20deg, 10deg);
+}
+
+.transformOrigin:hover {
+  transform: rotate(45deg);
+  transform-origin: 30% 80%;
+}
+
+.dTitle {
+  text-align: center;
+  margin-top: 15vh;
+}
+
+/* 3D transform */
+
+.translateZ:hover {
+  transform: translateZ(-600px);
+}
+
+.rotateD:hover{
+  transform: rotateZ(90deg);
 }
